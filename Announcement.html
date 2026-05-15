@@ -43,21 +43,61 @@ nav a:hover{
             background: linear-gradient(90deg, #3B82F6, #8B5CF6);
             border-bottom: 1px solid rgb(9, 9, 190);
         }        .footer {
-    background: #1E40AF;
-    color: white;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 30px 20px;
     text-align: center;
-    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 350px;
 }
 
-.copy {
-    font-size: 30px;
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.pri {
-    font-size: 16px;
-} 
-        .head3{
+.copy-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+
+.designer {
+    font-size: 13px;
+    color: #00d4ff;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.contact-info i {
+    color: #00d4ff;
+    margin-right: 8px;
+}
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+        transition: transform 0.3s ease;
+    }
+    .social-icon:hover {
+        transform: scale(1.2);
+    }        .head3{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin-top: 2px;
         }
@@ -129,6 +169,7 @@ nav a {
     position: absolute;
     left: 5px;
 }
+
         
     </style>
 
@@ -165,13 +206,22 @@ Any other student will be recieved only after paying the full school fee.
 </table>
 </div>
     <footer class="footer">
+  <div class="footer-content">
+    <p class="copy-text">© 2024 GS Bumba Service. All rights reserved.</p>
+    <p class="designer">Designed by <strong>Prince</strong></p>
     
-     
-      <span class="copy">©</span>
-     <span class="pri">gs bumba service . All right reserved</span><br>
-    <span class="pri"> designed by Prince</span><br>
-     <span class="pri">Contact Us :📞+2507 6789 564 For more help</span>
-    </footer>
+    <div class="social-links">
+      <img src="images (1) (1).png" class="social-icon">
+      <img src="IG (1).jpg" class="social-icon">
+      <img src="images (4).png" class="social-icon">
+      <img src="tsap.jpg" class="social-icon" >
+    </div>
+
+    <p class="contact-info">
+      <i class="fas fa-phone-alt"></i> Contact Us: <span>+250 767 895 64</span>
+    </p>
+  </div>
+</footer>
     
 </body>
 
